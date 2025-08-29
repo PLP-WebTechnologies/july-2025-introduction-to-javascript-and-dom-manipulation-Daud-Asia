@@ -3,17 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Profile Card</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>JavaScript Basics Assignment</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img" />
-    <h2 id="name">John Doe</h2>
-    <p id="role">Web Developer</p>
-    <button onclick="changeProfile()">Change Profile</button>
-  </div>
+  <h1>JavaScript Basics Demo</h1>
+
+  <!-- Part 1: Input & Display -->
+  <input type="text" id="nameInput" placeholder="Enter your name" />
+  <button onclick="greetUser()">Greet Me</button>
+  <p id="greetingText"></p>
+
+  <!-- Part 2: Functions -->
+  <button onclick="calculateTotal(200, 0.15)">Calculate Total (with tax)</button>
+  <p id="totalResult"></p>
+
+  <!-- Part 3: Loops -->
+  <button onclick="showFruits()">Show Fruits</button>
+  <ul id="fruitList"></ul>
+
+  <button onclick="countdown()">Start Countdown</button>
+  <p id="countText"></p>
+
+  <!-- Part 4: DOM Interaction -->
+  <button onclick="toggleTheme()">Toggle Theme</button>
 
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
+  
